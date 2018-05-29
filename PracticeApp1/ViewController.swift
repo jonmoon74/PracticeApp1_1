@@ -3,7 +3,7 @@
 //  PracticeApp1
 //
 //  Created by Jon Moon on 27/05/2018.
-//  Copyright © 2018 Jon Moon. All rights reserved...
+//  Copyright © 2018 Jon Moon. All rights reserved.
 //
 
 import UIKit
