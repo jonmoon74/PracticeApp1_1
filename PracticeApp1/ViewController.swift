@@ -19,8 +19,7 @@ class ViewController: UIViewController {
     
     @IBAction func buttonTapped(_ sender: Any) {
         
-        print(text1.text!)
-        print(text2.text!)
+        theLabel.text = "The answer is...\(Double(text1.text!)! + Double(text2.text!)!)"
     }
     
     @IBAction func button2Tapped(_ sender: Any) {
