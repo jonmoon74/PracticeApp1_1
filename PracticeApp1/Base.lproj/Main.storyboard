@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_9" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,21 +15,21 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PracticeApp1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JL5-Iu-N28">
-                                <rect key="frame" x="141" y="76" width="200" height="20.333333333333332"/>
+                                <rect key="frame" x="141" y="76" width="200" height="20.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="E3A-C5-4c1">
-                                        <rect key="frame" x="0.0" y="0.0" width="200" height="20.333333333333332"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="20.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="rm5-WJ-ia5">
-                                                <rect key="frame" x="0.0" y="0.0" width="200" height="20.333333333333332"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="20.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Hello World!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L3x-tG-Uo0">
-                                                        <rect key="frame" x="0.0" y="0.0" width="200" height="20.333333333333332"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="200" height="20.5"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="200" id="59p-kR-w6t"/>
                                                         </constraints>
@@ -43,46 +43,11 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3sh-fb-peu">
-                                <rect key="frame" x="150.66666666666666" y="135" width="74" height="30"/>
-                                <state key="normal" title="Add'em up"/>
-                                <connections>
-                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qC6-Nf-i6j"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9q6-9P-Qst">
-                                <rect key="frame" x="137.66666666666666" y="191" width="100" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="2rx-YN-dkM"/>
-                                </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cvY-fd-zju">
-                                <rect key="frame" x="137.66666666666666" y="268" width="100" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="u8H-jG-UdJ"/>
-                                </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="9q6-9P-Qst" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0S7-TX-rgt"/>
-                            <constraint firstItem="cvY-fd-zju" firstAttribute="top" secondItem="9q6-9P-Qst" secondAttribute="bottom" constant="47" id="Ird-UX-ZQR"/>
-                            <constraint firstItem="9q6-9P-Qst" firstAttribute="top" secondItem="3sh-fb-peu" secondAttribute="bottom" constant="26" id="Qcz-5I-XMY"/>
-                            <constraint firstItem="3sh-fb-peu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="arY-ib-wpx"/>
-                            <constraint firstItem="3sh-fb-peu" firstAttribute="top" secondItem="L3x-tG-Uo0" secondAttribute="bottom" constant="38.666666666666671" id="fSA-9Z-1fL"/>
-                            <constraint firstItem="cvY-fd-zju" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tfO-Fc-B1I"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="text1" destination="9q6-9P-Qst" id="ind-qD-DlM"/>
-                        <outlet property="text2" destination="cvY-fd-zju" id="vCN-qW-xya"/>
                         <outlet property="theLabel" destination="L3x-tG-Uo0" id="5nF-Kt-mfo"/>
                     </connections>
                 </viewController>
